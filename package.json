@@ -1,6 +1,6 @@
 {
-  "name": "ngx-intl-tel-input-app",
-  "version": "0.0.0",
+  "name": "@paprwork/ngx-intl-tel-input",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -18,16 +18,15 @@
     "package": "npm run build_lib && npm run npm_pack",
     "postinstall": "ngcc"
   },
-  "private": true,
   "dependencies": {
-    "@angular/animations": "8.x - 13.x",
-    "@angular/common": "8.x - 13.x",
-    "@angular/compiler": "8.x - 13.x",
-    "@angular/core": "8.x - 13.x",
-    "@angular/forms": "8.x - 13.x",
-    "@angular/platform-browser": "8.x - 13.x",
-    "@angular/platform-browser-dynamic": "8.x - 13.x",
-    "@angular/router": "8.x - 13.x",
+    "@angular/animations": "8.x - 14.x",
+    "@angular/common": "8.x - 14.x",
+    "@angular/compiler": "8.x - 14.x",
+    "@angular/core": "8.x - 14.x",
+    "@angular/forms": "8.x - 14.x",
+    "@angular/platform-browser": "8.x - 14.x",
+    "@angular/platform-browser-dynamic": "8.x - 14.x",
+    "@angular/router": "8.x - 14.x",
     "bootstrap": "^4.5.2",
     "core-js": "^3.6.5",
     "google-libphonenumber": "^3.2.3",
